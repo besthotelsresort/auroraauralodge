@@ -1,0 +1,2 @@
+# auroraauralodge
+Static site: auroraauralodge
