@@ -50,7 +50,7 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Inter', system-ui, sans-serif;min-height:100vh;color:#fff;display:flex;flex-direction:column;position:relative;overflow:hidden}
-body{background:radial-gradient(ellipse 90% 70% at 18% 12%,#c97b8a55 0%,transparent 55%),radial-gradient(ellipse 80% 60% at 82% 88%,#a85a6b44 0%,transparent 50%),linear-gradient(160deg,#1a1112 0%,#1a1112cc 100%)}
+body{background:#1a1112}body::before{content:'';position:absolute;top:-20%;left:-15%;width:70%;height:70%;border-radius:50%;background:radial-gradient(circle,#c97b8a55,transparent 70%);filter:blur(60px);z-index:0;animation:orbDrift 18s ease-in-out infinite alternate}body::after{content:'';position:absolute;bottom:-25%;right:-10%;width:65%;height:65%;border-radius:50%;background:radial-gradient(circle,#a85a6b44,transparent 70%);filter:blur(70px);z-index:0;animation:orbDrift2 22s ease-in-out infinite alternate}@keyframes orbDrift{from{transform:translate(0,0)}to{transform:translate(8%,6%)}}@keyframes orbDrift2{from{transform:translate(0,0)}to{transform:translate(-6%,-8%)}}
 .main{position:relative;z-index:2;flex:1;display:flex;align-items:flex-start;justify-content:center;text-align:center;padding:clamp(40px,8vh,100px) 6% 40px}
 h1{font-family:'DM Serif Display', serif;font-size:clamp(46px, 8.5vw, 132px);line-height:0.95;font-weight:400;letter-spacing:-3px;margin-bottom:18px}
 .sub{font-family:'DM Serif Display', serif;font-size:22px;font-style:italic;color:rgba(255,255,255,.78);max-width:600px;margin:0 auto 28px}
